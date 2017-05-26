@@ -6,14 +6,6 @@
   "engines": {
     "gitbook": ">=3.x.x"
   },
-  "scripts": {
-    "start": "cd examples&&npm install&&npm start",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "add": "git add -A",
-    "standard": "standard --fix assets/search.js, index.js",
-    "pages:build": "cd examples&&npm install&&npm run build",
-    "pages:push": "git subtree --prefix=examples push pages gh-pages"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JustPilz/gitbook-plugin-search-plus-mod.git"
